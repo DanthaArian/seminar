@@ -117,8 +117,8 @@ nav ul li a:hover {
 }
 
 .button {
-  background: #006A6A;
-  color: #073362;
+    background: #006A6A;
+    color: #ffffff;
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 20px;
