@@ -75,7 +75,7 @@ nav ul li a:hover {
 }
 
 #home img {
-    max-width: 50%; /* Gambar responsif */
+    max-width: 40%; /* Gambar responsif */
     height: auto; /* Mengatur tinggi otomatis sesuai dengan lebar */
     display: block; /* Menghilangkan jarak bawah default gambar */
     margin: 0 auto 20px auto; /* Margin atas/bawah dan kiri/kanan otomatis */
