@@ -1,146 +1,179 @@
 /* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
 header {
-  background: #006A6A;
-  color: #fff;
-  padding: 1rem 0;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 1000;
+    background: #006A6A;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-  margin: 0 1rem;
+    margin: 0 1rem;
 }
 
 nav ul li a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-  color: #03eefa;
+    color: #19cfcf;
 }
 
 .section {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 1s ease, transform 1s ease;
-  padding: 100px 20px;
-  text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease;
+    padding: 100px 20px;
+    text-align: center;
 }
 
-.lomba-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  /* Space between the paragraphs */
+.cabang {
+    margin-top: 20px;
 }
-
-.lomba-container p {
-  width: 45%;
-  /* Adjust the width as needed */
-  margin: 0;
+.cabang p {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    color: #19c2c2;
 }
 
 
 .section.active {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 #home {
-  background: #006A6A;
-  color: #fff;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    background: #006A6A;
+    color: #fff;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home img {
+    max-width: 30%; /* Gambar responsif */
+    height: auto; /* Mengatur tinggi otomatis sesuai dengan lebar */
+    display: block; /* Menghilangkan jarak bawah default gambar */
+    margin: 0 auto 20px auto; /* Margin atas/bawah dan kiri/kanan otomatis */
+    border-radius: 8px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6); /* Menambahkan bayangan pada gambar */
+}
+
+#home p {
+    margin: 20px 50px 20px 50px;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 16px;
+    color: #fff;
 }
 
 #home h2 {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 
 #about {
-  background: #fffcf6;
-  color: #333;
-  height: 50vh;
+    background: #fffcf6;
+    color: #333;
+    height: 100vh;
+}
+
+#about p {
+    margin: 20px 50px 20px 50px;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
 }
 
 #speakers {
-  background: #fffcf6;
-  color: #333;
-  height: 100vh;
+    background: #fffcf6;
+    color: #333;
+    height: 120vh;
 }
 
 #schedule {
-  background: #fffcf6;
-  color: #333;
-  height: 100vh;
+    background: #fffcf6;
+    color: #333;
+    height: 100vh;
+}
+
+#schedule p {
+    margin: 20px 50px 20px 50px;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 16px;
+    color: #333;
 }
 
 .speaker {
-  display: inline-block;
-  margin: 1rem;
-  text-align: center;
+    display: inline-block;
+    margin: 1rem;
+    text-align: center;
 }
 
 .speaker img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.8);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6);
 }
 
 .button {
     background: #006A6A;
     color: #ffffff;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: background 0.3s;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
 }
 
 .button:hover {
-  background: #fffcf6;
+    background: #19c2c2;
 }
 
 .button-home {
-  margin-top: 20px;
-  background: #EFEEE5;
-  color: #090b0e;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 20px;
-  text-decoration: none;
-  transition: background 0.3s;
+    background: #006A6A;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.3s;
 }
 
 .button-home:hover {
-  background: #006A6A;
+    background: #19c2c2;
 }
+
+.regis {
+    margin: 0 0 20px 0;
+    font-size: 16px;
+}
+
