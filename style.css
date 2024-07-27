@@ -84,7 +84,7 @@ nav ul li a:hover {
 }
 
 #home p {
-    margin: 20px 50px 20px 50px;
+    margin: 20px 20px 20px 20px;
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
@@ -99,11 +99,11 @@ nav ul li a:hover {
 #about {
     background: #fffcf6;
     color: #333;
-    height: 100vh;
+    height: 150vh;
 }
 
 #about p {
-    margin: 20px 50px 20px 50px;
+    margin: 20px 20px 20px 20px;
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
@@ -113,17 +113,17 @@ nav ul li a:hover {
 #speakers {
     background: #fffcf6;
     color: #333;
-    height: 120vh;
+    height: 150vh;
 }
 
 #schedule {
     background: #fffcf6;
     color: #333;
-    height: 100vh;
+    height: 120vh;
 }
 
 #schedule p {
-    margin: 20px 50px 20px 50px;
+    margin: 20px 20px 20px 20px;
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
