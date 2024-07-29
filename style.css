@@ -67,7 +67,7 @@ nav ul li a:hover {
 #home {
     background: #006A6A;
     color: #fff;
-    height: 150vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,6 +81,14 @@ nav ul li a:hover {
     margin: 0 auto 20px auto; /* Margin atas/bawah dan kiri/kanan otomatis */
     border-radius: 8px; /* Membuat sudut gambar melengkung */
     box-shadow: 0 16px 32px rgba(0, 0, 0, 0.6); /* Menambahkan bayangan pada gambar */
+}
+
+/*penyesuaian ukuran buat hp*/
+@media (max-width: 600px) {
+    #home img {
+        max-width: 80%;
+        margin: 0 auto 10px auto;
+    }
 }
 
 #home p {
@@ -99,7 +107,7 @@ nav ul li a:hover {
 #about {
     background: #fffcf6;
     color: #333;
-    height: 150vh;
+    height: auto;
 }
 
 #about p {
@@ -113,13 +121,13 @@ nav ul li a:hover {
 #speakers {
     background: #fffcf6;
     color: #333;
-    height: 150vh;
+    height: auto;
 }
 
 #schedule {
     background: #fffcf6;
     color: #333;
-    height: 120vh;
+    height: auto;
 }
 
 #schedule p {
