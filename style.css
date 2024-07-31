@@ -8,11 +8,20 @@
 
 body {
     line-height: 1.6;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+    
 }
 
 header {
     background: #006A6A;
     color: #fff;
+    font-weight: 600;
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -49,6 +58,16 @@ nav ul li a:hover {
     text-align: center;
 }
 
+.section h2 {
+    display: inline-block;
+            background-color: #f0f0f0; /* Warna latar belakang */
+            padding: 0px 30px; /* Padding dalam kotak */
+            border-radius: 2px 25px; /* Sudut membulat */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan kotak */
+            font-size: 28px;
+            margin: 0; /* Menghilangkan margin default */
+}
+
 .cabang {
     margin-top: 20px;
 }
@@ -65,8 +84,8 @@ nav ul li a:hover {
 }
 
 #home {
-    background: #006A6A;
-    color: #fff;
+    color: #000;
+
     height: auto;
     display: flex;
     flex-direction: column;
@@ -96,7 +115,7 @@ nav ul li a:hover {
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
-    color: #fff;
+    color: #000000;
 }
 
 #home h2 {
@@ -105,8 +124,7 @@ nav ul li a:hover {
 
 
 #about {
-    background: #fffcf6;
-    color: #333;
+    color: #000000;
     height: auto;
 }
 
@@ -115,18 +133,19 @@ nav ul li a:hover {
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
-    color: #333;
+    color: #000000;
 }
 
 #speakers {
-    background: #fffcf6;
-    color: #333;
+    color: #000000;
     height: auto;
 }
 
+
+
+
 #schedule {
-    background: #fffcf6;
-    color: #333;
+    color: #000000;
     height: auto;
 }
 
@@ -135,13 +154,19 @@ nav ul li a:hover {
     line-height: 1.6;
     text-align: justify;
     font-size: 16px;
-    color: #333;
+    color: #000000;
 }
 
 .speaker {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 1rem;
     text-align: center;
+}
+
+.speaker p {
+    font-weight: 600;
 }
 
 .speaker img {
